@@ -1,0 +1,17 @@
+[project]
+name = "ddtia"
+version = "0.1.0"
+description = "Projet IA pour DDTM 62"
+requires-python = ">=3.11"
+dependencies = [
+    "marimo>=0.14.13",
+    "onnxruntime>=1.22.1",
+    "pandas>=2.3.1",
+    "plotly>=6.2.0",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.0",
+    "ruff>=0.12.4",
+    "s3fs>=2025.7.0",
+    "streamlit>=1.47.1",
+    "vanna[chromadb,mistralai,openai,postgres]>=2.0.2",
+]

@@ -1,0 +1,13 @@
+
+# Entraînement : lance un script créé à partir de training/train_template.py
+# ex. : just train training/train_dv3f.py
+train script="training/train_template.py":
+    uv run python {{script}}
+
+# Notebook marimo pour tester l'assistant et consulter sa mémoire
+notebook:
+    uv run marimo edit training/notebook_marimo_test.py --host 0.0.0.0 --port 5000
+
+# Application Streamlit
+app:
+    uv run streamlit run app/app.py --server.address 0.0.0.0 --server.port 8000
