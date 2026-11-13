@@ -1,4 +1,4 @@
-# DatafoncIA (ddtia)
+# DDTIA
 
 Assistant d'analyse de données foncières pour la DDTM 62 : l'utilisateur pose une
 question en français, l'assistant génère la requête SQL, l'exécute sur la base
